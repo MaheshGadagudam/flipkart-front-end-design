@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        header{
+            display: grid;
+            grid-template-columns: 2fr 9fr 1fr;
+            background-color: blueviolet;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .main-head{
+            display: flex;
+            justify-content: space-between;
+            background-color: blueviolet;
+            color: white;
+        }
+        .second-image{
+            margin-top: 20px;
+        }
+        .items{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        input{
+            width: 200px; 
+            margin-top: 10px; 
+        }
+        select{
+            margin-top: 10px;
+        }
+        .changing-images{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .ac{
+            transform: scale(1,1);
+            transition: 1s;
+            font-weight: bold;
+        }
+        .ac:hover{
+            transform: scale(1.1,1.1);
+            transition: 1s;
+        }
+        .gym{
+            transform: scale(1,1);
+            transition: 1s;
+            font-weight: bold;
+        }
+        .gym:hover{
+            transform: scale(1.1,1.1);
+            transition: 1s;
+        }
+        .tv{
+            transform: scale(1,1);
+            transition: 1s;
+            font-weight: bold;
+        }
+        .tv:hover{
+            transform: scale(1.1,1.1);
+            transition: 1s;
+        }
+        .shirts{
+            transform: scale(1,1);
+            transition: 1s;
+            font-weight: bold;
+        }
+        .shirts:hover{
+            transform: scale(1.1,1.1);
+            transition: 1s;
+        }
+        .top-prodects{
+            transform: translate(0px);
+            transition: 1s;
+        }
+        .top-prodects:hover{
+            transform: translate(10px);
+            transition: 1s;
+        }
+        .names-items{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .foot-main{
+            display: grid;
+            grid-template-columns: 7fr 5fr;
+            border: 2px solid black;
+            background-color: #2370f4;
+            color: white;
+            font-weight: bold;
+        }
+        .foot-1{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+        }
+        .foot-2{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div></div>
+        <div class="main-head">
+        <div class="fk-image">
+            <img src="public/images/flipkart.png" height="50" width="100" >
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for products,brands and more">
+            <span class="bi bi-search"></span>
+            <span><button>Login</button></span>
+        </div>
+        <div class="text">
+            <p>Become a Seller</p>
+        </div>
+        <div class="dp-list">
+            <select>
+                <option>More</option>
+                <option>Notification Preferences</option><span class="bi bi-bell-fill"></span>
+                <option>24x7 Customer Care</option>
+                <option>Advertise</option>
+                <option>Download App</option>
+            </select>
+        </div>
+        <div class="cart">
+            <span class="bi bi-cart-fill"> Cart</span>
+        </div>
+    </div>
+    <div></div>
+    </header>
+    <div class="items">
+        <div class="top-prodects">
+            <img src="public/images/grocery.jpg" width="100" height="100">
+            <div class="names-items">
+                GROCERY
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/mobiles.jpg" width="100" height="100">
+            <div class="names-items">
+                MOBILES
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/fashion.jpg" width="100" height="100">
+            <div class="names-items">
+                FASHION
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/electronics.jpg" width="100" height="100">
+            <div class="names-items">
+                ELECTRONICS
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/home appliances.jpg" width="100" height="100">
+            <div class="names-items">
+                HOME
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/powders.jpg" width="100" height="100">
+            <div class="names-items">
+                POWDERS
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/travel.jpg" width="100" height="100">
+            <div class="names-items">
+                TRAVEL
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/toys.jpg" width="100" height="100">
+            <div class="names-items">
+                TOYS
+            </div>
+        </div>
+        <div class="top-prodects">
+            <img src="public/images/toybike.webp" width="100" height="100">
+            <div class="names-items">
+                TWO WHEELER
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="second-image">
+            <img src="public/images/flipkartimage.jpg" height="300" width="1500">
+        </div>
+    </section>
+    <div class="changing-images">
+        <div class="ac">
+            <img src="public/images/airconditioner.jpg" width="200" height="200">
+            <p>Air conditinor<br>
+                <span class="bi bi-currency-rupee">9,999 /- </span><br>
+                 <span> 40% OFF</span>
+            </p>
+        </div>
+        <div class="gym">
+            <img src="public/images/gymequipment.jpg" width="200" height="200">
+            <p>Gym Equipment<br>
+                <span class="bi bi-currency-rupee">3,499 /- </span><br>
+                 <span> 80% OFF</span>
+            </p>
+        </div>
+        <div class="tv">
+            <img src="public/images/tv.jpg" width="200" height="200">
+            <p>Mi tv(54 inches)<br>
+                <span class="bi bi-currency-rupee">59,999 /- </span><br>
+                 <span> 10% OFF</span>
+            </p>
+        </div>
+        <div class="shirts">
+            <img src="public/images/menshirt.jpg" width="200" height="200">
+            <p>Shirts<br>
+                <span class="bi bi-currency-rupee">499 /- </span><br>
+                 <span> 60% OFF</span>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-main">
+            <div class="foot-1">
+            <div>
+                <h3>ABOUT</h3>
+                <div><u>Contact US</u></div>
+                <div><u>About US</u></div>
+                <div><u>Careers</u></div>
+                <div><u>Flipkart Stories</u></div>
+                <div><u>Press</u></div>
+                <div><u>Flipkart Wholesale</u></div>
+                <div><u>Corporate information</u></div>
+            </div>
+            <div>
+                <h3>HELP</h3>
+                <div><u>Payments</u></div>
+                <div><u>Shopping</u></div>
+                <div><u>Cancelation & Return</u></div>
+                <div><u>FAQ</u></div>
+                <div><u>Report Infringement</u></div>
+            </div>
+            <div>
+                <h3>SOCIAL</h3>
+                <div><u>Facebook</u></div>
+                <div><u>Twitter</u></div>
+                <div><u>Youtube</u></div>
+            </div>
+            </div>
+            <div class="foot-2">
+                <div>
+                <h3>Mail Us:</h3>
+                <p>Flipkart Internet Private Limited,<br>
+
+                    Buildings Alyssa, Begonia &<br>
+                    
+                    Clove Embassy Tech Village,<br>
+                    
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    
+                    Bengaluru, 560103,<br>
+                    
+                    Karnataka, India</p>
+            </div>
+            <div>
+                <h4>Registered Office Address:</h4>
+                <p>Flipkart Internet Private Limited,<br>
+
+                    Buildings Alyssa, Begonia &<br>
+                    
+                    Clove Embassy Tech Village,<br>
+                    
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    
+                    Bengaluru, 560103,<br>
+                    
+                    Karnataka, India<br>
+                    
+                    CIN : U51109KA2012PTC066107<br>
+                    
+                    Telephone: 044-45614700</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

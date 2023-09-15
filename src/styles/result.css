@@ -1,0 +1,42 @@
+.heading{
+    background-color: indigo;
+    color: white;
+    font-weight: bolder;
+    width: 700px;
+    font-size: 50px;
+    padding-left: 100px;
+}
+h1{
+    padding-left: 120px;
+}
+label{
+    padding-left: 150px;
+}
+.box{
+    border: 3px solid black;
+    width: 700px;
+    margin-top: 30px;
+}
+.te{
+    margin-bottom: 20px;
+}
+.year{
+    margin-bottom: 20px;   
+}
+.couse-type{
+    margin-bottom: 20px;
+}
+.roll{
+    margin-top: 20px;
+}
+button{
+    text-align: center;
+}
+.botn{
+    padding-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.final{
+    justify-content: center;
+}

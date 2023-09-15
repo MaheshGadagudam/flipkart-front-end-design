@@ -1,0 +1,56 @@
+section{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+li{
+    background-color: black;
+    font-weight: bold;
+    font-size: 25px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.photo{
+    text-align: right;
+    padding-right: 200px;
+    border: 2px solid black;
+    width: 4px;
+    height: 200px;
+    padding-left: 40px;
+    text-align: right;
+    margin-left: 40px;
+}
+.addr{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h1{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+}
+.two{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    position: sticky;
+    overflow: fixed;
+}
+li:hover{
+    background-color: darkviolet;
+}
+.addre{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}

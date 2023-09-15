@@ -1,0 +1,48 @@
+.one{
+    background-color: rgb(16, 15, 17);
+    color: white;
+    font-weight: bold;
+    width: 320px;
+    height: 100px;
+    font-size: xx-small;
+    text-align: center;
+}
+.two{
+    margin-top: 5px;
+    padding-top: 10px;
+    font-size: x-small;
+}
+.three{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+.four{
+    text-align: center;
+}
+.box{
+    border-top: 2px gray;
+    width: 350px;
+}
+.five{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 35px;
+    color: red;
+}
+.details{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+.bc{
+    padding-left: 47px;
+    margin-top: 10px;
+
+}
+.box{
+    border: 3px solid black;
+    justify-content: center;
+}
+.seven{
+    padding: 15px;
+    justify-content: center;
+}

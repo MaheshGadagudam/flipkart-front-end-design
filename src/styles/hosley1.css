@@ -1,0 +1,162 @@
+h2{
+    font-family:  italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+.search-bar{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.btn{
+    margin-left: 10px;
+}
+.main-header{
+    display: flex;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0px;
+}
+input{
+    height: 35px;
+    width: 350px;
+}
+.signin{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signin-span{
+    margin-top: 10px;
+}
+.returns{
+    margin-left: 50px;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    width: 120px;
+    padding: 10px;
+   
+}
+.returns span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cart{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.cards-main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-left: 100px;
+}
+.men{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.men img{
+    padding: 20px;
+}
+.kids{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.kids img{
+    padding: 20px;
+}
+.women{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+.women img{
+    padding: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.product-one{
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    height: 600px;
+    background-color: rgba(214, 221, 235, 0);
+    font-weight: bold;
+}
+.product-one div:hover{
+ color: rgb(3, 3, 3);
+}
+.product-one h3{
+    background-color: blue;
+    color: white;
+}
+.products h3:hover{
+    background-color: rgb(207, 23, 33);
+}
+.product-two{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    height: 600px;
+    background-color: rgba(214, 221, 235, 0);
+    font-weight: bold;
+}
+.product-two div:hover{
+ color: rgb(3, 3, 3);
+}
+.product-two h3{
+    background-color: blue;
+    color: white;
+}
+.products h3:hover{
+    background-color: rgb(207, 23, 33);
+}
+.sub-first{
+    
+}
+.one{
+    height: 200px;
+    width: 300px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.two{
+    margin-left: 10px;
+    height: 200px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.three{
+    width: 450px;
+    
+}
+.four{
+    
+}
+.five{
+    
+}
+.six{
+    
+}
+.images{
+    border: 2px solid black;
+    margin-top: 20px;
+}

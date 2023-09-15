@@ -1,0 +1,17 @@
+dt{
+    background-color:white ;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+dd{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+.two{
+    height: 200px;
+    width: 150px;
+    background-color: none;
+}
